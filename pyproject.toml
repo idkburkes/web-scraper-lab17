@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lab17"
+version = "0.1.0"
+description = ""
+authors = ["Isaiah Burkes <idkburkes@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+beautifulsoup4 = "^4.10.0"
+pytest = "^7.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
